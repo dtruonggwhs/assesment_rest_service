@@ -34,6 +34,13 @@ OR
 ####		Using the API
 API endpoint `http://localhost:8080/validate`
 
+####		Note for application
+There is only two providers available: `provider1,provider2`
+<br>
+Application will return `404 NOT Found` if any other providers is provided. 
+<br>
+DO NOT PASS any provider to utilize all available providers (`see request without providers`) for example.
+
 #####	POST Request <br>
 Request with Providers
 		
