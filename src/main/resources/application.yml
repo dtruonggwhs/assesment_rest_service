@@ -1,0 +1,19 @@
+spring:
+    config:
+        activate:
+            on-profile: dev
+name: dev-YAML
+environment: development
+providers:
+   provider1: https://provider1.com/v1/api/account/validate
+   provider2: https://provider2.com/v2/api/account/validate
+---
+spring:
+    config:
+        activate:
+            on-profile: prod
+name: prod-YAML
+environment: production
+providers:
+    provider1: https://provider1.com/prod/v1/api/account/validate
+    provider2: https://provider2.com/prod/v2/api/account/validate
