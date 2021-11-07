@@ -1,10 +1,19 @@
 ###	Framework
-*	Java Spring Boot <br>
-*	Maven <br> 
+*	Java Spring Boot
+*	Maven
+*	Eclipse
+*	JDK 1.8
 
 
 ###	Getting Started
-*	Running Application: change directory to root and run `./mvnw spring-boot:run`
+#####	Running Application
+change directory to `/rest-service`<br>
+
+	./mvnw spring-boot:run
+
+MacOS
+
+	sudo ./mvnw spring-boot:run
 
 #### 	Change Environment
 *	Navigate to `/rest-service/src/main/resources/application.properties` <br>
