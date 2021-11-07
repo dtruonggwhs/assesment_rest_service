@@ -7,11 +7,23 @@
 
 ###	Getting Started
 #####	Running Application
+Clone project
+
+	git clone https://github.com/dtruonggwhs/assesment_rest_service.git
+	
+	sudo git clone https://github.com/dtruonggwhs/assesment_rest_service.git
+
 change directory to `/rest-service`<br>
+
+	./mvn spring-boot:run
+OR
 
 	./mvnw spring-boot:run
 
 MacOS
+
+	sudo ./mvn spring-boot:run
+OR
 
 	sudo ./mvnw spring-boot:run
 
